@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LBG Payments Test App</string>
+    <string name="load_users_error">Couldn\'t load users.</string>
+    <string name="no_users">There are no users available</string>
+    <string name="no_friends">There are no friends yet</string>
+    <string name="load_user_detail_error">Couldn\'t load user details.</string>
+    <string name="lorem_ipsum">It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. It\'s more different than everyone else. Amet mauris commodo who invests a mass of tincidunts. Consectetur adipiscing elit duis trisque sollicitudin nibh sit. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida Pellentesque elit ullamcorper dignissim tomorrow tincidunt lobortis feugiat we live at. For the two now have property as the element of earth with the arrows of life. He always needs a home and a country. Let it be a lot of venomous urn cursing now the chocolate cartoon. I don\'t need a free keyboard. The world in fear vulputate eu. Let the fans take care of the adipiscing drink.</string>
+    <string name="welcome_to_wise_test_app">Welcome to LBG Banking Test App</string>
+    <string name="wise_payments_loading_please_wait">Wise Payments Loading, Please wait...</string>
+    <string name="payment">Payment</string>
+    <string name="next">next</string>
+    <string name="cancel">cancel</string>
+    <string name="name">Name</string>
+    <string name="view_balance">View balance</string>
+    <string name="send_money">Send money</string>
+    <string name="view_transactions">View transactions</string>
+    <string name="send">send</string>
+    <string name="food">Food</string>
+    <string name="data">Data</string>
+    <string name="rent">Rent</string>
+    <string name="utility">Utility</string>
+    <string name="candles">Candles</string>
+    <string name="amount">Amount</string>
+</resources>
