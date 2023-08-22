@@ -1,4 +1,4 @@
-# LBG Baning Test App
+# LBG Banking Test App
 Android App(online & Offline) using Clean Architecture, MVVM, DataBinding, Koin, Coroutines, LiveData, ViewModel, Room, Navigation, UnitTesting, MockTest and AndroidX.</br>
 The data is fetched from <a href='https://randomuser.me/'>Random User</a>.</br>
 
