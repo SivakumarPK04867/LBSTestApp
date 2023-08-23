@@ -1,6 +1,5 @@
-# LBGTestApp
 # LBG Banking Test App
-Offline first Android App using Clean Architecture, MVVM, DataBinding, Koin, Coroutines, LiveData, ViewModel, Room, Navigation, UnitTesting, MockTest and AndroidX.</br>
+Android App(online & Offline) using Clean Architecture, MVVM, DataBinding, Koin, Coroutines, LiveData, ViewModel, Room, Navigation, UnitTesting, MockTest and AndroidX.</br>
 The data is fetched from <a href='https://randomuser.me/'>Random User</a>.</br>
 
 ![](art/img.gif)
@@ -17,7 +16,7 @@ Created by Siva kumar boddu
 
 * [AndroidX](https://developer.android.com/jetpack/androidx)
 Artifacts within the androidx namespace comprise the Android Jetpack libraries. Like the Support Library, 
-libraries in theandroidx namespace ship separately from the Android platform and provide backward compatibility 
+libraries in the androidx namespace ship separately from the Android platform and provide backward compatibility 
 across Android releases.
 * [Data Binding](https://developer.android.com/topic/libraries/data-binding)
 Write declarative layouts and minimize the glue code necessary to bind application logic and layouts.
@@ -79,4 +78,3 @@ refactoring, documentation, and more. This chapter provides details of the main 
 LeakCanary is a memory leak detection library for Android.
 * [Timber](https://levelup.gitconnected.com/timber-a-logging-library-for-android-56c431cd7300)
   Timber — A Logging Library for Android.
-
