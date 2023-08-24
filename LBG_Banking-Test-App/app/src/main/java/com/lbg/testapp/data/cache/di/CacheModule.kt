@@ -8,7 +8,7 @@ import org.koin.dsl.module
 /**
  * Created by Siva kumar boddu 
  */
-internal val cacheModule = module(override = true) {
+internal val cacheModule = module {
     single { SystemDatabase.newInstance(get()) }
     single { get<SystemDatabase>().userDao() }
     single { PreferencesHelper(get()) }

@@ -7,6 +7,6 @@ import org.koin.dsl.module
 /**
  * Created by Siva kumar boddu 
  */
-internal val domainModules = module(override = true) {
+internal val domainModules = module {
     single<UserInteractor> { UserInteractorImp(get()) }
 }

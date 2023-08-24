@@ -17,7 +17,7 @@ import retrofit2.Retrofit
 const val NAMED = "WISE_TEST"
 const val NAMED_CLIENT = "WISE_TEST_CLIENT"
 
-internal val networkModule = module(override = true) {
+internal val networkModule = module {
     single(named(NAMED_CLIENT)) { createHttpClient() }
     single(named(NAMED)) { createRetrofit(get(named(NAMED_CLIENT))) }
     single { provideApi(get(named(NAMED))) }

@@ -7,6 +7,6 @@ import org.koin.dsl.module
 /**
  * Created by Siva kumar boddu 
  */
-val repositoryModule = module(override = true) {
+val repositoryModule = module {
     single<UserRepository> { UserRepositoryImp(get(), get()) }
 }

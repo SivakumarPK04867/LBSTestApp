@@ -16,7 +16,7 @@ internal val presentationModules by lazy {
     )
 }
 
-internal val viewModelModule = module(override = true) {
+internal val viewModelModule = module {
     viewModel { UserListViewModel(get()) }
     viewModel { UserDetailViewModel(get()) }
 }
