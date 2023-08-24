@@ -4,7 +4,6 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
-import androidx.annotation.RequiresApi
 
 /**
  * Created by Siva kumar boddu 
@@ -20,7 +19,6 @@ class NetworkConnectivity constructor(private val context: Context) {
         }
     }
 
-    @RequiresApi(Build.VERSION_CODES.M)
     private fun postAndroidMInternetCheck(
         connectivityManager: ConnectivityManager
     ): Boolean {
